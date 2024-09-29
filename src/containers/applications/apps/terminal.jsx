@@ -270,14 +270,14 @@ export const WnTerminal = () => {
     } else if (type == "title") {
       setWntitle(arg.length ? arg : "Terminal");
     } else if (type == "hostname") {
-      tmpStack.push("blue");
+      tmpStack.push("Samson Blackburn");
     } else if (type == "login") {
       login();
       tmpStack.push("started login");
     } else if (type == "lang-test") {
       i18next.changeLanguage("fr-FR");
       tmpStack.push("French");
-    } else if (type == "blue") {
+    } else if (type == "Samson Blackburn") {
       tmpStack.push("blueedgetechno");
     } else if (type == "dev") {
       tmpStack.push("https://dev.blueedge.me/");
@@ -285,13 +285,13 @@ export const WnTerminal = () => {
       tmpStack.push("OS [Version 10.0.22000.51]");
     } else if (type == "systeminfo") {
       var dvInfo = [
-        "Host Name:                 BLUE",
+        "Host Name:                 Samson Blackburn",
         "OS Name:                   Win11React Dummys Edition",
         "OS Version:                10.0.22000 N/A Build 22000.51",
         "OS Manufacturer:           ",
         "OS Configuration:          Standalone Workstation",
         "OS Build Type:             Multiprocessor Free",
-        "Registered Owner:          Blue",
+        "Registered Owner:          Samson Blackburn",
         "Registered Organization:   N/A",
         "Product ID:                7H1S1-5AP1R-473DV-3R5I0N",
       ];
@@ -317,8 +317,8 @@ export const WnTerminal = () => {
         "VER            Displays the Windows version.",
         "PYTHON         EXECUTE PYTHON CODE.",
         "EVAL           RUNS JavaScript statements.",
-        "INSTALL        Instal a app with app name and iframe url",
-        "UNINSTALL      Uninstal a app with app name",
+        "INSTALL        Install an app with app name and iframe url",
+        "UNINSTALL      Uninstall an app with app name",
       ];
 
       for (var i = 0; i < helpArr.length; i++) {

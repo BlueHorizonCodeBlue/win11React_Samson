@@ -47,7 +47,7 @@ const apps = [
     action: "MSEDGE",
   },
   {
-    name: "Buy me a coffee",
+    name: "Buy the repo creator BlueEdge a coffee",
     icon: "buyme",
     type: "app",
     action: "EXTERNAL",
@@ -65,7 +65,14 @@ const apps = [
     type: "app",
   },
   {
-    name: "Blue",
+    name: "Samson Blackburns LinkedIn",
+    icon: "linkedin",
+    type: "app",
+    action: "EXTERNAL",
+    payload: "https://www.linkedin.com/in/samsonblackburn/",
+  },
+  {
+    name: "Samson",
     icon: "win/user",
     type: "app",
     action: "EXPLORER",
@@ -130,7 +137,7 @@ const apps = [
     icon: "mail",
     type: "app",
     action: "EXTERNAL",
-    payload: "mailto:blueedgetechno@gmail.com",
+    payload: "mailto:samson.blackburn@gmail.com",
   },
   {
     name: "Movies",
@@ -194,7 +201,7 @@ const apps = [
     type: "app",
   },
   {
-    name: "Pinterest",
+    name: "Pinterest of the repo creator BlueEdge",
     icon: "pinterest",
     type: "app",
     action: "EXTERNAL",
@@ -231,7 +238,7 @@ const apps = [
     icon: "twitter",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://twitter.com/blueedgetechno",
+    payload: "https://x.com/BlackburnSamson",
   },
   {
     name: "Teams",
@@ -281,18 +288,25 @@ const apps = [
     type: "app",
   },
   {
-    name: "Github",
+    name: "Win11 Repo Owners Github",
     icon: "github",
     type: "app",
     action: "EXTERNAL",
     payload: "https://github.com/blueedgetechno/win11React",
   },
   {
-    name: "Unescape",
-    icon: "unescape",
-    type: "action",
+    name: "Samsons Github",
+    icon: "github",
+    type: "app",
     action: "EXTERNAL",
-    payload: "https://blueedge.me/unescape",
+    payload: "https://github.com/BlueHorizonCodeBlue",
+  },
+  {
+    name: "AI 48hr Submission to GovHack",
+    icon: "Youtube",
+    type: "app",
+    action: "EXTERNAL",
+    payload: "https://www.youtube.com/watch?v=P-CkbFv-CVM",
   },
   {
     name: "Discord",
